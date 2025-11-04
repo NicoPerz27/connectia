@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="imagenes/favicon/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagenes/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagenes/favicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <title>Connectia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/573208445364" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="imagenes/logo/logo-header-2.png" alt="CONNECTIA">
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="#portafolio">SERVICIOS</a></li>
+                    <li><a href="#galeria">GALERÍA</a></li>
+                    <li><a href="#quienes-somos">NOSOTROS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="contact-separator-line"></div>
+            <div class="header-right">
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/connectia.col?igsh=NGtyMmdndTl5bW1q" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="call-now">
+                    <span>¡Habla con un experto!</span>
+                    <a href="tel:+573002246384">+57 300 300 30 30</a>
+                </div>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <div class="menu-bottom-line"></div>
+    </header>
+
+    <!-- Hero Banner Slider -->
+    <section class="hero-slider" id="inicio">
+        <div class="slider-container">
+            <div class="slide">
+                <div class="slide-bg" style="background-image: url('imagenes/banner-principal/b1.jpg')"></div>
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <span class="subtitle">Bienvenidos a Connectia</span>
+                    <div class="title-rectangle"></div>
+                    <h1>Titulo<br>creativo<br>Atractivo</h1>
+                    <a href="https://wa.me/+573002246384?text=Hola%2C%20quisiera%20más%20información%20sobre%20sus%20servicios" target="_blank" class="btn">CONTACTAR</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-bg" style="background-image: url('imagenes/banner-principal/b2.jpg')"></div>
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <span class="subtitle">Bienvenido a Connectia</span>
+                    <div class="title-rectangle"></div>
+                    <h1>Titulo<br>creativo<br>atractivo</h1>
+                    <a href="https://wa.me/+573002246384?text=Hola%2C%20quisiera%20más%20información%20sobre%20sus%20servicios" target="_blank" class="btn">CONTACTAR</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-bg" style="background-image: url('imagenes/banner-principal/b3.jpg')"></div>
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <span class="subtitle">Bienvenido a Connectia</span>
+                    <div class="title-rectangle"></div>
+                    <h1>Titulo<br>creativo<br>atractivo</h1>
+                    <a href="https://wa.me/+573002246384?text=Hola%2C%20quisiera%20más%20información%20sobre%20sus%20servicios" target="_blank" class="btn">CONTACTAR</a>
+                </div>
+            </div>
+            
+            <div class="slider-nav">
+                <button class="prev-slide" aria-label="Diapositiva anterior">PREV</button>
+                <button class="next-slide" aria-label="Diapositiva siguiente">NEXT</button>
+            </div>
+        </div>
+    </section>
+
+     <!-- Portafolio Section -->
+    <section class="products-section" id="portafolio">
+        <div class="container">
+            <h2>Portafolio de servicios</h2>
+            <div class="products-container">
+                <!-- Product rows will be generated by JS -->
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="galeria">
+        <div class="gallery-grid">
+            <div class="mosaic-item" data-category="comunicaciones">
+                <img src="imagenes/galeria/comunicacion.jpg" alt="Comunicaciones">
+                <div class="gallery-overlay">
+                    <h3>Comunicación</h3>
+                    <button class="view-btn" data-category="comunicaciones">Conoce +</button>
+                </div>
+            </div>
+            <div class="mosaic-item" data-category="Marketing">
+                <img src="imagenes/galeria/marketing.jpg" alt="Marketing">
+                <div class="gallery-overlay">
+                    <h3>Marketing</h3>
+                    <button class="view-btn" data-category="Marketing">Conoce +</button>
+                </div>
+            </div>
+            <div class="mosaic-item" data-category="Tegnología">
+                <img src="imagenes/galeria/desarrollo.jpg" alt="Tegnología">
+                <div class="gallery-overlay">
+                    <h3>Desarrollo</h3>
+                    <button class="view-btn" data-category="Tegnología">Conoce +</button>
+                </div>
+            </div>
+            <div class="mosaic-item" data-category="Activaciones">
+                <img src="imagenes/galeria/activaciones.jpg" alt="Activaciones">
+                <div class="gallery-overlay">
+                    <h3>Activaciones</h3>
+                    <button class="view-btn" data-category="Activaciones">Conoce +</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Category Gallery Popup -->
+    <div class="category-popup">
+        <div class="category-content">
+            <div class="category-header">
+                <h2 id="category-title">Comunicaciones</h2>
+                <button class="close-category">×</button>
+            </div>
+            <div class="category-gallery">
+                <!-- Gallery items will be generated by JS -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Variants Popup -->
+<div class="variants-popup">
+    <div class="variants-container">
+        <div class="variants-carousel">
+            <!-- Variant slides will be generated by JS -->
+        </div>
+        <div class="carousel-nav">
+            <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="variants-indicators">
+            <!-- Indicators will be generated by JS -->
+        </div>
+        <div class="variants-overlay">
+            <div class="variants-title-container">
+                <div class="variants-text">
+
+                    <div class="gallery-line"></div>
+
+                    <h3 class="variants-title">Título del producto</h3>
+                    <p class="variants-description">Descripción detallada del producto seleccionado</p>
+                </div>
+                <button class="quote-btn">
+                    <i class="fas fa-file-alt"></i> Solicitar cotización
+                </button>
+            </div>
+        </div>
+        <button class="close-variants">×</button>
+    </div>
+</div>
+
+     <!-- Parallax Section -->
+    <section class="parallax" id="quienes-somos">
+        <div class="container">
+            <div class="parallax-content">
+                <h2>¡SOMOS LA VOZ DE TU NEGOCIO!</h2>
+                <a href="nosotros.html" class="btn">CONOCENOS</a>
+            </div>
+        </div>
+    </section>
+    
+   
+    <!-- Testimonials Section With Left Panel -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="testimonials-container">
+                <div class="testimonials-banner">
+                    <div class="testimonials-banner-content">
+                        <h2>Lo que nuestros clientes piensan</h2>
+                        <span class="subtitle">Experiencias reales</span>
+                        <p>Más de 500 clientes satisfechos confían en nuestros servicios de calidad y diseño innovador. Nuestra prioridad es tu satisfacción.</p>
+                    </div>
+                </div>
+                
+                <div class="testimonials-carousel-container">
+                    <div class="testimonials-carousel">
+                        <div class="carousel-inner">
+                            <!-- Testimonials will be added by JS -->
+                        </div>
+                        <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Promo Banner Section -->
+    <section class="promo-banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2>Oferta Especial</h2>
+                <p>Descuento del 20% en todos los productos seleccionados</p>
+                <a href="https://wa.me/+573002246384?text=Estoy%20interesado%20en%20la%20oferta%20especial" target="_blank" class="btn">COMPRAR AHORA</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Clients Logos Section -->
+    <section class="clients-logos" style="display:none">
+        <div class="container">
+            <h2>Nuestros Clientes</h2>
+            <div class="logos-carousel">
+                <div class="carousel-inner">
+                    <!-- Logos will be added dynamically by JS -->
+                </div>
+                <button class="carousel-prev">❮</button>
+                <button class="carousel-next">❯</button>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Contacto Section -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Oficina Principal</h3>
+                            <p>Kr xx #xx xx<br> xxx xxxxxx / Bogota - Colombia</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <a href="tel:+573003570921">+57 300 30 30 300</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:jarango@connectiacol.co">jarango@connectiacol.co</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horario de Atención</h3>
+                            <p>Lunes a Viernes: 9:00 am. - 06:00 pm.</p>
+                            <p>Sábados: 9:00 am. - 01:00 pm.</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Nombre Completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Correo Electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Teléfono">
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" required>
+                                <option value="" disabled selected>Asunto</option>
+                                <option value="consulta">Consulta General</option>
+                                <option value="Comunicaciones">Comunicaciones</option>
+                                <option value="Marketing">Marketing, planes y diseño</option>
+                                <option value="Tecnologia">Tecnologia</option>
+                                <option value="Activaciones y eventos">Activaciones y eventos</option>
+                                <option value="otros">Otros</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.471576685474!2d-74.06101292472971!3d4.687808595287141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ac174d41b61%3A0xc6771e1123955b3a!2sAc%20100%2C%20Bogot%C3%A1%2C%20Colombia!5e0!3m2!1ses-419!2sve!4v1761625982047!5m2!1ses-419!2sve" width="1440" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col logo-col">
+                    <a href="#" class="footer-logo"><img src="imagenes/logo/logo-footer.png" alt="Connectia"></a>
+                    <p>Marketing y estrategia digital.</p>
+                    <div class="social-icons-footer">
+                        <a href="https://www.instagram.com/connectia.col?igsh=NGtyMmdndTl5bW1q" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col menu-col">
+                    <h3>Menú</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#quienes-somos">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col services-col">
+                    <h3>Categorías</h3>
+                    <ul>
+                        <li><a href="#" data-category="Comunicaciones">Comunicaciones</a></li>
+                        <li><a href="#" data-category="Marketing">Marketing, planes y diseño</a></li>
+                        <li><a href="#" data-category="Tecnologia">Tecnologia</a></li>
+                        <li><a href="#" data-category="Activaciones y eventos">Activaciones y eventos</a></li>
+                        <li><a href="#" data-category="all">Todos los productos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col contact-col">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Bogota - Colombia</li>
+                        <li><i class="fas fa-phone-alt"></i>  <a href="tel:+573003570921">+57 300 30 30 300</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:jarango@connectiacol.co">jarango@connectiacol.co</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 Connectia. Todos los derechos reservados.</p>
+                </div>
+                <div class="legal-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
