@@ -609,16 +609,21 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Crear testimonios
-    for (let i = 1; i <= 6; i++) {
+    // Crear testimonios    
         testimonials.push({
-            id: i,
-            content: `"Excelente servicio, muy satisfecho con el producto. Atención rápida y profesional. El diseño superó mis expectativas y la calidad es excepcional. ¡Lo recomiendo!"`,
-            author: `Cliente ${i}`,
+            id: 1,
+            content: `"Trabajar con Connectia ha fortalecido nuestra relación con los clientes gracias a su capacidad para alinear la comunicación con los objetivos del negocio. Su coordinación y efectividad han hecho que se conviertan en una verdadera extensión de nuestro equipo."`,
+            author: `Cliente ${1}`,
             position: `Usuario frecuente`,
             avatar: `imagenes/icon/avatar.png`
-        });
-    }
+        });    
+        testimonials.push({
+            id: 2,
+            content: `"Con Connectia encontramos un aliado que entiende cómo conectar personas y propósitos. Su acompañamiento mejoró nuestra comunicación con los clientes y la ejecución de proyectos, destacándose por su compromiso y cercanía."`,
+            author: `Cliente ${2}`,
+            position: `Usuario frecuente`,
+            avatar: `imagenes/icon/avatar.png`
+        });    
 
     // Renderizar testimonios
     function renderTestimonials() {
