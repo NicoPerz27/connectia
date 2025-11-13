@@ -492,7 +492,7 @@ document.addEventListener('DOMContentLoaded', function () {
     for (let i = 1; i <= 1; i++) {
         products.push({
             id: i,
-            title: `Comunicacion empresarial`,
+            title: `Comunicación empresarial`,
             subtitle: `• Estrategias de comunicación interna y externa <br>• Alcance nacional y regional en medios masivos <br> • Generación de noticias, artículos, contenidos de valor y ruedas de prensa <br>• Posicionamiento de marca en prensa.`,
             img: `imagenes/servicios/comunicacion.gif`,
             staticImg: `imagenes/servicios/comunicacion.png` // Necesitas crear esta imagen
