@@ -1288,7 +1288,7 @@ header .container {
 /* ====================== */
 .promo-banner {
     padding: 100px 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('imagenes/banner-principal/b1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('imagenes/galeria/activaciones.jpg');
     background-size: cover;
     background-position: center;
     color: white;
